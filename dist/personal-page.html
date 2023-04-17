@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elo - Case</title>
+  </head>
+  <body class="bg-bg-body">
+    <header class="bg-c-clr relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:opacity-[0.033] before:bg-main-gradient">
+        <div class="p-header-container relative z-[1]">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-10">
+                    <a href="/" class="block w-32 desk:w-44">
+                        <img src="img/global/logo@2x.png" alt="logo-image">
+                    </a>
+                    <nav>
+                        <ul class="flex items-center">
+                            <li class="px-2 desk:px-5">
+                                <a href="#" class="relative flex items-center gap-3 after:absolute after:w-full after:h-nav-after-height after:top-16 after:l-0 after:opacity-0 transition-opacity  after:bg-red-600 hover:after:opacity-100">
+                                    <img class="w-nav-icon-width h-nav-icon-height" src="img/navigation/navigation-battle-icon@2x.webp" alt="nav-icon">
+                                    <span class="text-sm text-white">Home</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <button class="flex items-center gap-4 py-fz-15 px-[1.375rem] rounded-4-radius bg-main-gradient transition-all hover:brightness-90 active:brightness-75">
+                        <img class="max-w-user-width" src="img/button/btn-user-icon@2x.png" alt="user-icon">
+                        <span class="uppercase text-sm font-bold text-white">Sign in</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div>
+            <main class="p-8 px-4">
+                <section>
+                    <div class="flex flex-col gap-5">
+                        <div class="p-5 desk:p-8 rounded-lg bg-v-clr flex flex-col gap-6">
+                            <div class="grid grid-cols-1 desk:grid-cols-2 gap-6">
+                                <div class="bg-profile-block-bg min-h-fit tab:min-h-profile-block-height flex items-center justify-center">
+                                    <div class="flex flex-col gap-5 tab:gap-0 mob:flex-row items-center justify-between w-full px-4 py-4 tab:px-5 tab:py-0 tab-l:px-9">
+                                        <div class="flex items-center gap-4 desk:gap-10 w-full mob:w-fit">
+                                            <div class="w-12 h-12 tab:w-[5.25rem] tab:h-[5.25rem] rounded-md overflow-hidden">
+                                                <img src="img/global/placeholder-image@2x.png" alt="user-icon">
+                                            </div>
+                                            <div>
+                                                <div class="text-lg font-bold mb-1 text-white ">
+                                                    GrangeDestribution
+                                                </div>
+                                                <a href="#" class="text-ppl-clr font-medium text-fz-15">
+                                                    Steam profile >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <button class="flex items-center justify-center text-center bg-main-gradient rounded-md gap-4 max-w-[100%] w-full mob:max-w-[11.25rem] px-5 py-[0.875rem] tab:px-6 tab:py-5">
+                                            <img class="w-[1.5625rem] h-[1.5625rem]" src="img/global/plus-icon@2x.png" alt="plus-icon">
+                                            <span class="uppercase text-lg text-white font-extrabold">deposit</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="bg-profile-block-bg min-h-fit tab:min-h-profile-block-height flex items-center justify-center px-5 py-5 mob:px-8 mob:py-10">
+                                    <div class="w-full h-full">
+                                        <div class="uppercase text-white mb-6 font-extrabold text-base">
+                                            LINK TO THE EXCHANGE
+                                        </div>
+                                        <div class="flex items-center gap-5">
+                                            <input value="https://steamcommunity.com/tradeoffer/new/?part" disabled class="bg-search-input-bg text-search-input-text-clr text-fz-15 transition-all rounded-md focus:border-ppl-clr focus:outline-none w-full border border-solid border-[#1f1a2b] p-input-exchange-link-padding placeholder:text-search-input-text-clr placeholder:text-fz-15 cursor-text">
+                                            <button>
+                                                <img class="w-5 h-5" src="img/global/copy-icon@2x.png" alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="grid grid-cols-1 mob:grid-cols-2 tab:grid-cols-3 desk:grid-cols-4 gap-[0.875rem] tab-l:gap-7">
+                                    <li class="flex flex-col gap-1 bg-cover bg-center px-6 py-6 mob:px-9 mob:py-7 rounded-md" style="background-image: url('img/personal-page/stats-purple-overlay.png');">
+                                        <div class="text-white text-2xl tab:text-4xl font-black leading-[100%]">
+                                            980
+                                        </div>
+                                        <div class="uppercase text-index-item-descr-clr text-[0.75rem] mob:text-[0.875rem]">
+                                            skins won
+                                        </div>
+                                    </li>
+                                    <li class="flex flex-col gap-1 bg-cover bg-center px-6 py-6 mob:px-9 mob:py-7 rounded-md" style="background-image: url('img/personal-page/stats-red-overlay.png');">
+                                        <div class="text-white text-2xl tab:text-4xl font-black leading-[100%]">
+                                            $17.390
+                                        </div>
+                                        <div class="uppercase text-index-item-descr-clr text-[0.75rem] mob:text-[0.875rem]">
+                                            THE AMOUNT OF WINNINGS
+                                        </div>
+                                    </li>
+                                    <li class="flex flex-col gap-1 bg-cover bg-center px-6 py-6 mob:px-9 mob:py-7 rounded-md" style="background-image: url('img/personal-page/stats-green-overlay.png');">
+                                        <div class="text-white text-2xl tab:text-4xl font-black leading-[100%]">
+                                            20
+                                        </div>
+                                        <div class="uppercase text-index-item-descr-clr text-[0.75rem] mob:text-[0.875rem]">
+                                            OPEN PERSONALS
+                                        </div>
+                                    </li>
+                                    <li class="flex flex-col gap-1 bg-cover bg-center px-6 py-6 mob:px-9 mob:py-7 rounded-md" style="background-image: url('img/personal-page/stats-blue-overlay.png');">
+                                        <div class="text-white text-2xl tab:text-4xl font-black leading-[100%]">
+                                            $9.750
+                                        </div>
+                                        <div class="uppercase text-index-item-descr-clr text-[0.75rem] mob:text-[0.875rem]">
+                                            MAXIMUM WIN
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="bg-v-clr rounded-lg px-5 py-7 tab:px-8 tab:py-8">
+                            <div class="mb-6 flex flex-col mob:flex-row items-center justify-center mob:justify-between gap-5 mob:gap-2">
+                                <div class="flex items-center gap-4">
+                                    <div>
+                                        <img class="max-w-[2rem]" src="img/global/inventory-icon@2x.png" alt="inventory-icon">
+                                    </div>
+                                    <div class="text-white font-extrabold uppercase text-lg mob:text-xl">
+                                        YOUR INVENTORY
+                                    </div>
+                                </div>
+                                <div class="w-full mob:w-fit relative">
+                                    <input placeholder="Search by items" type="search" class="bg-search-input-bg text-search-input-text-clr text-fz-15 transition-all rounded-md focus:border-ppl-clr focus:outline-none w-full  mob:w-[19rem] border border-solid border-[#1f1a2b] p-4 mob:p-input-search-padding placeholder:text-search-input-text-clr placeholder:text-fz-15">
+                                    <div class="absolute right-4 top-1/2 -translate-y-1/2">
+                                        <img class="w-5 h-5" src="img/global/search-icon@2x.png" alt="search-icon">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="grid gap-4 mob:gap-8 grid-cols-inventory-grid">
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                                <li class="bg-roulette-block-bg justify-between flex flex-col p-6 min-h-inventory-item-height rounded-[0.25rem] relative after:absolute after:w-1/2 after:h-1/2 after:bg-orange-clr after:-translate-x-2/4 after:-translate-y-2/4 after:top-1/2 after:left-1/2 after:rounded-[50%] after:blur-[2rem] after:opacity-[0.05]">
+                                    <div class="flex items-center justify-between">
+                                        <button class="text-grn-clr text-[0.8125rem] font-bold uppercase hover:brightness-75">sell</button>
+                                        <div class="text-orange-clr text-fz-15 font-bold">  
+                                            $980
+                                        </div>
+                                    </div>
+                                    <div class="absolute right-[23%] z-[3] top-10 max-w-[6.4rem]">
+                                        <img src="img/roulette/roulette-knife@2x.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-fz-15 mb-1 leading-[100%]">
+                                            Glock - 18
+                                        </div>
+                                        <div class="text-[#5d5373] text-fz-15 font-medium">                                        
+                                            (MW) Carmel longer
+                                        </div>
+                                    </div>
+                                </li>   
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
